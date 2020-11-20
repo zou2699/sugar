@@ -3,7 +3,8 @@ package main
 import "github.com/zou2699/sugar"
 
 func main() {
-
+	log := sugar.NewLogger()
+	log.Info("without component filed")
 	sugar.Debug("default development sugar of chalvern")
 	myCustomLogger()
 	myCustomLogger2()
