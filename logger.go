@@ -13,6 +13,13 @@ type Logger struct {
 	zapSugar *zap.SugaredLogger
 }
 
+// NewLogger logger without component field
+func NewLogger() *Logger {
+	return &Logger{
+		zapSugar: zapSugar,
+	}
+}
+
 // NewLoggerOf logger with component field
 func NewLoggerOf(component string) *Logger {
 	return &Logger{

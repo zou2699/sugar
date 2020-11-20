@@ -51,5 +51,6 @@ func SetSugar(config *zap.Config, opts ...zap.Option) {
 		panic(err)
 	}
 	zapSugar = zapLogger.Sugar()
-	mainLogger = NewLoggerOf("main")
+	// mainLogger = NewLoggerOf("main")
+	mainLogger = NewLogger()
 }
