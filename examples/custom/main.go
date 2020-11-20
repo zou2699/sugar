@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/chalvern/sugar"
+	"github.com/zou2699/sugar"
 	"go.uber.org/zap"
 )
 

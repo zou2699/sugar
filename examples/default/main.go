@@ -1,6 +1,6 @@
 package main
 
-import "github.com/chalvern/sugar"
+import "github.com/zou2699/sugar"
 
 func main() {
 

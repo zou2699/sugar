@@ -1,4 +1,5 @@
 # sugar
+**FROM github.com/chalvern/sugar**
 
 《[中文文档](./README_zh.md)》
 

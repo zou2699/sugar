@@ -1,9 +1,5 @@
-module github.com/chalvern/sugar
+module github.com/zou2699/sugar
 
 go 1.12
 
-require (
-	go.uber.org/atomic v1.4.0 // indirect
-	go.uber.org/multierr v1.1.0 // indirect
-	go.uber.org/zap v1.10.0
-)
+require go.uber.org/zap v1.16.0
